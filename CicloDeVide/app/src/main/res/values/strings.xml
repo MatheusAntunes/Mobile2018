@@ -1,0 +1,24 @@
+<resources>
+<<<<<<< HEAD
+    <string name="app_name">MeuPrimeiroApp</string>
+    <string name="edit_message">Escreva uma mensagem</string>
+
+    <string name="button_send">Envie</string>
+=======
+    <string name="app_name">CicloDeVida</string>
+    <string name="activity_a">Atividade A</string>
+
+    <string name="btn_start_a_label">Inicar A</string>
+    <string name="btn_start_b_label">Inicar B</string>
+    <string name="btn_start_c_label">Inicar C</string>
+    <string name="btn_start_dialog_label">Diálogo</string>
+
+    <string name="btn_finish_a_label">Fechar A</string>
+    <string name="btn_finish_b_label">Fechar B</string>
+    <string name="btn_finish_c_label">Fechar C</string>
+    <string name="btn_finish_dialog_label">Fechar</string>
+    <string name="lige_method_list">Lista de Métodos de Ciclo de Vida</string>
+    <string name="activity_status">Status da Atividade</string>
+
+>>>>>>> Atividade 2
+</resources>
