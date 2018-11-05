@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>MeusFilmes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list *ngIf="meusFilmes.length > 0; else elseBlock">
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/docs/assets/img/avatar-finn.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Título Filme</h2>
+        <h3>Data de Lançamento</h3>
+        <p>Sinopse Filme</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ng-template #elseBlock>
+    <ion-card class="card-filme">
+      <img src="/assets/imgs/no-movies.jpg"/>
+      <ion-card-header>
+        <ion-card-title>Não há filmes a serem exibidos</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Cadastre filmes para serem exibidos na sua lista de filmes favoritos.</p>
+      </ion-card-content>
+    </ion-card>
+    
+    <ion-row padding>
+      <button ion-button color="gold" (click)="abreCadastroFilme()">Cadastrar Filme</button>
+    </ion-row>
+  </ng-template>
+</ion-content>
